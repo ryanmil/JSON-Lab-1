@@ -1,7 +1,7 @@
 //Function to grab random int between min - max
 var randomInt = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+};
 
 window.onload = function()
 {
@@ -56,7 +56,7 @@ window.onload = function()
 			ctx.strokeRect(this.x,this.y,this.width,this.height);
 
 			this.update();
-		}
+		};
 
 		//function that handle our logincss for our box
 		this.update = function()
@@ -136,4 +136,4 @@ window.onload = function()
 	//set interval so we can draw then update our drawing
 	// every 30 milisecond
 	setInterval(draw,30);
-}
+};
